@@ -1,0 +1,26 @@
+{
+  "name": "my-js",
+  "version": "1.0.0",
+  "description": "my js library",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha ./test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yasu47b/my-js.git"
+  },
+  "author": "yasu47b",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yasu47b/my-js/issues"
+  },
+  "homepage": "https://github.com/yasu47b/my-js#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
