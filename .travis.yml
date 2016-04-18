@@ -2,3 +2,5 @@ language: node_js
 node_js:
   - "5.1"
 
+after_success:
+          - ./bin/codecov -e TRAVIS_NODE_VERSION
